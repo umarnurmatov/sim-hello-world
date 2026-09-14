@@ -5,13 +5,13 @@
 ### Debian / Ubuntu
 
 ```sh
-sudo apt-get install git build-essential gdb-multiarch qemu-system-misc gcc-riscv64-linux-gnu binutils-riscv64-linux-gnu
+sudo apt-get install qemu-system-riscv gcc-riscv64-linux-gnu binutils-riscv64-linux-gnu
 ```
 
 ### Arch
 
 ```sh
-sudo pacman -S riscv64-linux-gnu-binutils riscv64-linux-gnu-gcc riscv64-linux-gnu-gdb qemu-emulators-full bc git base-devel
+sudo pacman -S riscv64-linux-gnu-binutils riscv64-linux-gnu-gcc riscv64-linux-gnu-gdb qemu-system-riscv
 ```
 
 ## Build & run
